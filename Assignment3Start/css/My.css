@@ -1,0 +1,62 @@
+/* Global Styles
+---------------------------*/
+Body{
+    color:#343434;
+    margin:0;
+    padding:0;
+}
+img{
+    width:300px;
+}
+a
+{color: #FFE66D; }
+a:hover {text-decoration: none;}
+
+h2 {
+ margin:0;   
+}
+.content-wrap {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/*Profile
+--------------------*/
+header{ background-color:#2f3061;
+      background-image: url(./img\Horse2.jpg);
+    Color:#F7FFF7;
+
+}
+/* Projects
+-------------------*/
+.projects{
+    background-color: #F7FFF7;
+}
+.projects a {
+Color:#2F3061;
+}
+.projects .btn {color:#F7FFF7; 
+    background-color:#2F3061 ;
+     text-decoration: none;
+    padding:8px;
+border-radius: 4px;
+display: inline-block;
+}
+.projects .btn :hover {background-color: rgba(47,48,97,80%);}
+
+/*Work Experience
+-------------------*/
+.work-experience{
+    background-color:#A1C607;
+}
+
+/*Education
+-------------------*/
+
+
+/*Contact Info
+-------------------*/
+footer{
+    background-color:#343434 ;
+    Color:#F7FFF7;
+}
