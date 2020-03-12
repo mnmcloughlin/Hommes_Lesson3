@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Caveat&display=swap" 
+    rel="stylesheet">
+    <link rel="stylesheet" href="My.css">
+</head>
+<body>
+    <header> 
+        <div class="content-wrap">
+              
+        <h1>Megan Hommes</h1>
+        <h2>Graphic Design Artist</h2>
+
+        <p>Basic Adob photoshop, Illustrator, Camera raw, and Indesign knowledge. 
+          Can work with excel and Google sheet documents. 
+          Basic HTML and Css Coding Knoweldge 
+         </p>
+      </div>
+      </header>
+
+         <!-- ***********************  Navbar list  *********************** -->
+    <div id="navbar">
+        <ul id="nav">
+          <li> <a class="nav" href="index.html"> Home</a></li>
+          <li> <a class="nav" href="forms.html"> Contact</a></li>
+          
+            <li><a class="nav"> Projects</a>
+            <ul>
+               <li><a class="nav" href="Photos.html"> Photos</a></li>
+              </ul>
+              </li>
+          </ul>
+  </div>
+  
+        <!-- ***********************  Next  *********************** -->
+       <section>
+           <div class=content-wrap>
+            <h2 class="PP" >Contact us</h2>
+            </div>
+        </section>
+        <section class="flex-container">
+           <div class=content-wrap>
+        <form class="contact" method="post" action="">
+            <div class="flex-item">
+            <label for="First Name"> First Name</label> <input type="text" name="first name" id="first name">
+            </div>
+            <div class="flex-item">
+            <label for="Last Name">Last Name</label> <input type="text" name="Last name" id="Last name">
+            </div>
+            <div class="flex-item">
+            <label for="Email">Email</label> <input type="Email" name="email" id="email">
+            </div>
+            <div class="flex-item">
+            <label for="Phone number">Phone Number</label> <input type="text" name="Phone number" id="Phone Number"><br>
+        </div>
+    </div>
+        </section>
+    <section class="flex-container">
+        <div class="flex-item">
+        <label for="Reason">"Reason for contacting"</label>
+    <select name="Reason" id="reason">
+        <Option value="Prints">Prints</Option>
+        <Option value="Photo Editing">Photo Editing</Option>
+        <Option value="Logos">Logo</Option>
+        <Option value="Webpage design">Webpage design</Option>
+        <Option value="Other Services">Other services</Option>
+    </div>
+        </select>
+    </section>
+       
+    <section class="flex-container">
+        <div class="flex-item">
+        <fieldset>
+            <Legend>Are you a current Costumer?</Legend>
+           <input type="radio" name="Yes" Value="yes" id="yes"><label for="yes">Yes</label>
+                <input type="radio" name="No" Value="No" id="No"><label for="No">No</label>
+    </fieldset>
+        </div>
+        <div class="flex-item">
+    <fieldset>
+            <Legend>Would you like to subscribe to our monthly emails with upcoming events and sales?</Legend>
+           <input type="radio" name="Yes" Value="yes" id="yes"><label for="yes">Yes</label>
+                <input type="radio" name="No" Value="No" id="No"><label for="No">No</label>
+    </fieldset>
+        </div>
+        <div class="flex-item">
+    <label for="comment">Breif reason for contacting </label>
+    <Textarea id="comment" name="comment"></Textarea>
+        </div>
+        <div class="flex-item">
+    <input type="submit">
+        </div>
+    </section>
+    <section>
+  
+
+     </form>
+</div>
+</section>
+</body>
+</html>

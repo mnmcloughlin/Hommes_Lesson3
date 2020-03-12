@@ -17,9 +17,8 @@ h1,h2 {
 }
 header{
     line-height: 45px;
-    font-weight: 400;
-    text-shadow: 2px 2px blue;
-       
+    font-weight: 400px;
+    text-shadow: 2px 2px blue;      
 }
 
 h2 { font-size: 30px;}
@@ -27,10 +26,7 @@ img{
     width:260px;
     float:left;
     position: relative;
-    transform: translate(100px)
-    
-    
-    
+    transform: translate(100px)   
 }
 .clear { clear: both;}
 a
@@ -42,14 +38,52 @@ a:hover {text-decoration: none;}
     margin: 0 auto;
     padding: 40px 0;
 }
+
+/* Nav bar
+---------------------------*/
+#navbar{
+    width: 100%;
+    }
+    #nav, #nav ul {
+        padding:0;
+        margin:0;
+        list-style: none;
+        line-height: 2;   
+    }
+    #nav a {
+       color: goldenrod;
+        font-size: 20px;
+        text-decoration: none;
+        display:block;
+        width: 130px;
+        padding-left: 40px;
+    }
+    #nav li {
+        float:left;
+        width: 130px;
+        color:white;  
+    }
+    #nav li ul {
+        position: absolute;
+        background:white;
+        Width: 130px;
+        left: -999em;
+    }
+    #nav li:hover ul{
+        left:auto;
+    }
+    
+    #nav li ul li:hover{
+        background: navy;
+    }
+    
+    /* end of nav bar
+    ---------------------------*/
 /*Profile
 --------------------*/
 header{ background-color:#2f3061;
       background-image: url(./img/Horse2.jpg);
-     
-              Color:#F7FFF7;
-              
-
+        Color:#F7FFF7;
 }
 /* Projects
 -------------------*/
@@ -72,6 +106,12 @@ display: inline-block;
 -------------------*/
 .work-experience{
     background-color:#A1C607;
+
+}
+.job-item {
+ display:grid;
+ grid-template-columns:1fr 2fr;
+ column-gap:20px;   
 }
 
 /*Education
@@ -84,3 +124,110 @@ footer{
     background-color:#343434 ;
     Color:#F7FFF7;
 }
+
+/*photo projects index2.html
+-------------------*/
+
+.photos{
+    background-color:#343434;
+    color: white;    
+}
+.PP {
+    font-size: 100px;
+}
+.slide-container{
+    width:auto;
+    height:auto;
+    margin-left: auto;
+    margin-bottom:0;
+    margin-right: 400px;
+    padding-bottom: 0px;
+    overflow:hidden;
+    text-align: center;
+}
+.image-container{
+    width:3429px;
+    height:auto;
+    position:relative;
+    transition: left 3s;
+    -webkit-transition:  left 3s;
+    -moz-transition:  left 3s;
+    -o-transition:  left 3s;
+
+}
+.slider-image{
+    float:left;
+    margin-left:30px;
+    margin-right: 40px;
+    padding:50px;
+    width:500px;
+}
+.button-container{
+    top: -10px;
+    position: initial;
+    
+}
+.slider-button{
+    display:inline-block;
+    height:20px;
+    width: 20px;
+    border-radius: 0px;
+    background-color: white;
+    margin-top: -200px;
+   
+    
+}
+#slider-image-1:target ~ .image-container{
+    left:0px;
+   
+}
+#slider-image-2:target ~ .image-container{
+    left:-733px;
+
+}
+#slider-image-3:target ~ .image-container{
+    left:-1420px;
+    
+}
+#slider-image-5:target ~ .image-container{
+    left:-2060px;
+}
+#slider-image-6:target ~ .image-container{
+    left:-2750px;
+}
+
+/*Contact page
+-------------------*/
+.flex-container{
+    background-color:#343434;
+    color: white;   
+    margin-bottom:10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.flex-item {
+    padding:10px;
+    flex:0 1 100px;}
+
+
+{font-family:inherit
+    font-size:100%}
+    textarea {
+        width:600px;
+        height:200px ;
+        -Webkit-box-sizing: border-box;
+        box-sizing: border-box;}
+        
+    .contact{
+        padding:10px;
+        display:flex;
+        justify-content: center;
+        background-color:#343434;
+    color: white;    
+
+    } 
+
+
+        
